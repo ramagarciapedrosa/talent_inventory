@@ -1,0 +1,13 @@
+{
+  "collab": {
+    "mail": "cachorabioso@gmail.com",
+    "password": "Qwerty!234",
+    "name": "Cacho Rabioso"
+  },
+  
+  "invalid" : {
+    "mail": "martitademerlo5@gmail.com",
+    "password": "Qwerty!234",
+    "name": "Marta Merlo"
+  }
+}

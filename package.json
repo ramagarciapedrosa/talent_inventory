@@ -1,0 +1,42 @@
+{
+  "name": "qa_automation_playwright_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all" : "npx playwright test --project=chromium",
+    "login": "npx playwright test login.spec.ts --project=chromium",
+    "home": "npx playwright test home.spec.ts --project=chromium",
+    "skills": "npx playwright test skills.spec.ts --project=chromium",
+    "tools": "npx playwright test tools.spec.ts --project=chromium",
+    "industries": "npx playwright test industries.spec.ts --project=chromium",
+    "ui": "npx playwright test ui.spec.ts --project=chromium",
+    "cleanup": "npx playwright test cleanup.spec.ts --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.20.0",
+    "@playwright/test": "^1.31.2",
+    "@types/jest": "^29.2.2",
+    "@types/supertest": "^2.0.12",
+    "@types/window-size": "^1.1.1",
+    "@wdio/cli": "^8.6.5",
+    "axe-core": "^4.6.1",
+    "axe-html-reporter": "^2.2.3",
+    "axe-playwright": "^1.2.3",
+    "jest": "^29.2.2",
+    "lighthouse": "^9.6.8",
+    "playwright": "^1.31.2",
+    "playwright-lighthouse": "^2.2.2",
+    "supertest": "^6.3.1",
+    "typescript": "^4.8.4",
+    "window-size": "^1.1.1",
+    "winston": "^3.8.2"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.6.0",
+    "intermock": "^0.2.5"
+  }
+}
